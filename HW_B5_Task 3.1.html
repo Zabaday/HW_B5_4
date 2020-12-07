@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>HW_B5_Task 3.1</title>
+    <!--Задание 3
+Примените к сайтам из домашних заданий уроки №2 и №3 выравнивание текста, блоков, порядок
+вывода элементов, который будет меняться при разных размерах экранов.-->
+</head>
+<body>
+    <h3>About Us</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="ratio ratio-21x9 justify-content-center">
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/Z6Dx-o3vfJY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex mb-1 flex-row justify-content-end justify-content-sm-start">
+            <div class="col-3">
+                <div class="card ">
+                    <div class="card-header">
+                        <h5 class="card-title">Coffee House Promo</h5>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/Z6Dx-o3vfJY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Handcrafted U.K. based artisan coffee roaster, with a passion for creating great, speciality coffees for our customers to savour.</p>
+                        <button type="button" class="btn btn-success">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center bg-warning text-white ">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/Z6Dx-o3vfJY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3>Our Offer</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav id="navbar-example2" class="navbar navbar-light bg-light">
+                    <a class="navbar-brand order-2" href="#">More Info</a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link order-sm-4" href="#fat">@Coffee service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link order-sm-3" href="#mdo">@Easy Serving Espresso Pod</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle order-1" data-toggle="dropdown" href="#" role="button">Coffee Types</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#one">Robusta coffee</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#two">Arabica coffee</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#three">Charrier coffee</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div data-spy="scroll" data-target="#navbar-example2" style="position: relative;
+					height: 400px;
+					overflow: auto;">
+                    <h4 id="fat">@Coffee service</h4>
+                    <p>Coffee service refers to the many and various styles in which coffee is made available to people, such as in restaurants and hotels.
+                        Coffee service is also a catch-all term for services related to the delivery of coffee to employees of a business at low or no cost to them. Providing coffee to employees is popular among employers since employees will likely not leave the workplace to purchase coffee, subsequently reducing lost work time. Employers also see coffee service as a perk with a low cost.</p>
+                    <h4 id="mdo">@Easy Serving Espresso Pod</h4>
+                    <p>The Easy Serving Espresso pod (E.S.E. pod), is a small packed coffee pod with a paper filter covering for use in a non-grinding espresso machine. The E.S.E. standard was created by Italian Illy in the 1970s and is maintained by the "Consortium for the Development and the Protection of the E.S.E. Standard." It is open to all coffee roasters and machine manufacturers, making it the self-acclaimed "only open system available to the sector for espresso coffee prepared with paper pods".</p>
+                    <h4 id="one">Robusta coffee</h4>
+                    <p>Robusta coffee is coffee made from beans of the plant Coffea canephora, a sturdy species with low acidity and high bitterness. C. canephora beans, widely known by the synonym Coffea robusta, are used primarily in instant coffee, espresso, and as a filler in ground coffee blends. Robusta is easier to care for and has a greater crop yield than C. arabica, so is cheaper to produce. Roasted robusta beans produce a strong, full-bodied coffee with a distinctive earthy flavour, but usually with more bitterness than arabica due to its pyrazine content. Since arabica beans are believed to have smoother taste with more acidity and a richer flavour, they are often considered superior, while the harsher robusta beans are mostly used as a filler in lower-grade coffee blends. However, the powerful flavour can be desirable in a blend to give it perceived "strength" and "finish", noticeably in Italian coffee culture. Good-quality robusta beans are used in traditional Italian espresso blends, at about 10–15%, to provide a full-bodied taste and a better foam head (known as crema). It is besides used as a stimulant, diuretic, antioxidant, antipyretic and relieves spasmodic asthma.</p>
+                    <h4 id="two">Arabica coffee</h4>
+                    <p>Coffea arabica accounts for 60% of the world's coffee production.
+                        C. arabica takes approximately seven years to mature fully, and it does best with 1.0–1.5 meters (about 40–59 inches) of rain, evenly distributed throughout the year [citation needed] It is usually cultivated between 1,300 and 1,500 m altitude,[citation needed] but there are plantations that grow it as low as sea level and as high as 2,800 m. The plant can tolerate low temperatures, but not frost, and it does best with an average temperature between 15 and 24 °C (59 and 75 °F). Commercial cultivars mostly only grow to about 5 m, and are frequently trimmed as low as 2 m to facilitate harvesting. Unlike Coffea canephora, C. arabica prefers to be grown in light shade.</p>
+                    <h4 id="three">Charrier coffee</h4>
+                    <p>The C.charrieriana grows in wet places with plenty of sunshine. During dry periods, the species undergoes floral bud morphogenesis but the flowering buds do not emerge until the next rainfall event. After rain, a flowering event was seen in 7 days. The time it takes for flowering of all Coffea species ranges from 5-13 days, making correct timing of hybridization difficult.
+                        Similar to other Coffea species, the fleshy fruit of the C. charrieriana contains edible beans. These can be prepared by drying, roasting or grinding, generally to make coffee. As a naturally occurring caffeine-free coffee, it provides an alternative over artificially decaffeinated coffee. With increasing demand for decaffeinated coffee, methods such as plant hybridization between coffee-free species, biotechnology interference of genetics and chemical extraction have been used to artificially decrease caffeine content. Generally, the presence of caffeine acts on the tastebuds, giving caffeinated products a distinct flavour, so as a caffeine-free species, C.charrieriana may not be preferable to coffee drinkers who prefer the taste provided by caffeine. The C.charrieriana can be used in plant hybridization as the theobromine can be transferable between breeds, allowing caffeine concentration to be altered when crossed with a species containing caffeine.  Seeds from the C.charrieriana are currently being developed to become the first naturally caffeine-free coffee available on the market[disambiguation needed], this bean being coined the name Decaffito by Brazilian developers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
+    
+</body>
+</html>
